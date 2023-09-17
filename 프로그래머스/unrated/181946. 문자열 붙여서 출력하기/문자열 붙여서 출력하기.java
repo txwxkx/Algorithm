@@ -7,7 +7,8 @@ public class Solution {
         String b = sc.next();
         
         if (a.length() >= 1 && a.length() <= 10 && b.length() >= 1 && b.length() <= 10) {
-            System.out.print(a + b);
+            System.out.print(a);
+            System.out.print(b);
         }
     }
 }//end class
